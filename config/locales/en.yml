@@ -1,0 +1,3 @@
+en:
+  field_extra_remote_pull_request_url: "Remote Pull Request URL"
+  field_extra_remote_pull_request_url_info: "Insert <em>:pull_request_id</em> in the URL where the pull request identifier should appear (e.g. https://website.com/my/project/commit/:pull_request_id)."
