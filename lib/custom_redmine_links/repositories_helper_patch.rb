@@ -4,7 +4,7 @@ RepositoriesHelper.class_eval do
   alias_method :orig_repository_field_tags, :repository_field_tags
   def repository_field_tags(form, repository)
     html = orig_repository_field_tags(form, repository)
-    html = extra_remote_pull_request_url_tag(form)
+    html += extra_remote_pull_request_url_tag(form)
     html
   end
 

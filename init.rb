@@ -10,6 +10,6 @@ end
 Redmine::Plugin.register :custom_redmine_links do
   name 'Custom Redmine Links'
   author 'Remizov Nikita'
-  description 'Customization of Redmine links.'
-  version '0.0.1'
+  description 'Customization of Redmine repository links.'
+  version '0.0.2'
 end
